@@ -1,0 +1,106 @@
+.home
+{
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    /* background: linear-gradient(180deg, #78909C , #f0f0f0); */
+
+    background-image: repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(40, 24, 113),rgb(159, 96, 150));
+}
+
+
+.about
+{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: linear-gradient(180deg, #455A64 , #78909C); */
+    background-image: repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(40, 24, 113),rgb(159, 96, 150));
+    color: #ECF0F1;
+}
+
+.about h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #FFFC00;
+    height: 50px;
+    
+    /* margin-bottom: 10%; */
+}
+
+.about .prompt
+{
+    /* margin-top: 10%; */
+    width: 40%;
+    font-size: 30px;
+}
+
+.prompt svg{
+font-size: 60px;
+margin: 5px;
+color: #ecf0f1;
+}
+
+.skills
+{
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1
+{
+    color: #251669;
+}
+
+.skills h2
+{
+    color: #000000;
+}
+
+.skills .list{
+
+    list-style: none;
+    width: 60%;
+    
+}
+
+.list span{
+    font-size: 20px;
+    color: #251669;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .about h2 {
+        font-size: 40px;
+    }
+}
+
+.about .prompt
+{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.skills{
+    text-align: center;
+}
+
+.list
+{
+    padding: 0;
+}
+
+.skills h2{
+    font-size: 30px;
+}
