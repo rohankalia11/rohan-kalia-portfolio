@@ -10,7 +10,7 @@ import "../styles/Experience.css"
 function Experience() {
   return (
     <div className='experience'>
-      <VerticalTimeline lineColor='#3e497a'>
+      <VerticalTimeline lineColor='#281871'>
       
       <VerticalTimelineElement
       className='vertical-timeline-element--work'
