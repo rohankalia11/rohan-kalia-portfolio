@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/rohan-kalia-portfolio/static/css/main.706b792d.css",
+    "main.js": "/rohan-kalia-portfolio/static/js/main.c329a64a.js",
+    "static/js/496.4b4d6c33.chunk.js": "/rohan-kalia-portfolio/static/js/496.4b4d6c33.chunk.js",
+    "static/media/esm.PNG": "/rohan-kalia-portfolio/static/media/esm.2c11048e5766dceaddb7.PNG",
+    "static/media/port.PNG": "/rohan-kalia-portfolio/static/media/port.4ecc812a2ae36f0f55a8.PNG",
+    "static/media/cr.jpg": "/rohan-kalia-portfolio/static/media/cr.3378f0cb59a8c11f46f3.jpg",
+    "static/media/cra.jpg": "/rohan-kalia-portfolio/static/media/cra.3999d7de536d88bd6869.jpg",
+    "index.html": "/rohan-kalia-portfolio/index.html",
+    "main.706b792d.css.map": "/rohan-kalia-portfolio/static/css/main.706b792d.css.map",
+    "main.c329a64a.js.map": "/rohan-kalia-portfolio/static/js/main.c329a64a.js.map",
+    "496.4b4d6c33.chunk.js.map": "/rohan-kalia-portfolio/static/js/496.4b4d6c33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.706b792d.css",
+    "static/js/main.c329a64a.js"
+  ]
+}
